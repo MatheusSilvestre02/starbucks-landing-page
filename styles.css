@@ -13,7 +13,7 @@
   --black: #000000;
 }
 
-/* Removendo texturas de gotas d'água e voltando ao fundo branco limpo */
+
 body {
   font-family: "SoDo Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: var(--black);
@@ -92,7 +92,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
-  /* Adicionando estilos para links que parecem botões */
+  
   text-decoration: none;
   display: inline-block;
 }
@@ -110,7 +110,7 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s;
-  /* Adicionando estilos para links que parecem botões */
+
   text-decoration: none;
   display: inline-block;
 }
@@ -168,17 +168,17 @@ body {
   align-items: center;
 }
 
-/* Aumentando o tamanho da estrela de 500px para 650px */
+
 .star-graphic {
   width: 100%;
   max-width: 650px;
   height: auto;
-  /* Adicionando sombra iluminada de baixo para cima */
+  
   filter: drop-shadow(0 15px 30px rgba(0, 130, 72, 0.25)) drop-shadow(0 25px 50px rgba(0, 130, 72, 0.15));
 }
 
 /* Getting Started Section */
-/* Removendo texturas de gotas e voltando ao fundo branco simples */
+
 .getting-started {
   padding: 5rem 2rem;
   text-align: center;
@@ -317,15 +317,15 @@ body {
   display: flex;
   gap: 2rem;
   justify-content: center;
-  align-items: center; /* Added this property */
+  align-items: center;
 }
 
-/* Tornando as imagens circulares com tamanho fixo */
+
 .customize-images img {
   width: 200px;
-  height: 200px; /* Updated height */
-  border-radius: 50%; /* Added border-radius */
-  object-fit: cover; /* Added object-fit */
+  height: 200px; 
+  border-radius: 50%; 
+  object-fit: cover; 
 }
 
 .customize-text h2 {
@@ -355,7 +355,7 @@ body {
 }
 
 /* Extras Section */
-/* Removendo texturas de gotas e voltando ao fundo branco simples */
+
 .extras-section {
   padding: 5rem 2rem;
   text-align: center;
@@ -380,7 +380,7 @@ body {
   text-align: center;
 }
 
-/* Reduzindo tamanho das estrelas e ajustando posicionamento individual das imagens */
+
 .extra-card img {
   width: 240px;
   height: 240px;
@@ -389,19 +389,17 @@ body {
   object-fit: cover;
 }
 
-/* Ajustando posição das imagens para mostrar mais a parte de baixo */
-/* Primeira imagem - mãos segurando copos - movendo para baixo para mostrar as mãos */
+
 .extra-card:nth-child(1) img {
   object-position: center 65%;
 }
 
-/* Segunda imagem - loja Starbucks - movendo para baixo para mostrar o letreiro */
-/* Ajustando para 120% conforme sugestão do usuário para melhor enquadramento do letreiro */
+
 .extra-card:nth-child(2) img {
   object-position: center 120%;
 }
 
-/* Terceira imagem - copos na mesa - mantendo centralizado */
+
 .extra-card:nth-child(3) img {
   object-position: center center;
 }
